@@ -4,6 +4,15 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+img
+{
+    width: 10rem;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
 .container {
     width: 80%;
