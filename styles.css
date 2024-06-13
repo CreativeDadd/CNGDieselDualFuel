@@ -28,7 +28,7 @@ label {
     font-weight: bold;
 }
 
-input[type="number"], button {
+input[type="number"], input[type="password"], button {
     padding: 10px;
     font-size: 16px;
 }
@@ -72,4 +72,13 @@ button:hover {
     .results {
         grid-template-columns: 1fr;
     }
+}
+
+.login-form, .app-form {
+    display: none;
+}
+
+.login-form {
+    display: block;
+    text-align: center;
 }

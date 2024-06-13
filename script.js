@@ -1,3 +1,15 @@
+const password = 'keslogbinX-45';
+
+function login() {
+    const inputPassword = document.getElementById('password').value;
+    if (inputPassword === password) {
+        document.getElementById('loginForm').style.display = 'none';
+        document.getElementById('appForm').style.display = 'block';
+    } else {
+        alert('Incorrect password');
+    }
+}
+
 function calculateCosts() {
     const rating = document.getElementById('rating').value;
     const hours = document.getElementById('hours').value;
